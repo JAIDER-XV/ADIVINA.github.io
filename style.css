@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-rojo {
+    background-color: #f44336;
+  }
+  
+  .btn-azul {
+    background-color: #2196F3;
+  }
+  
+  .btn-verde {
+    background-color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  #resultado {
+    display:none;
+  }
+  

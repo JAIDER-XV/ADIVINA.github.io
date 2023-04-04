@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Adivina el número</h1>
+		<p>Piensa en un número entre 1 y 100 y haz clic en "Empezar".</p>
+		<button onclick="empezar()">Empezar</button>
+		<div id="resultado">
+		  <p>¿Tu número es <span id="medio"></span>?</p>
+		  <button onclick="mayor()" class="btn-rojo">Mayor</button>
+		  <button onclick="menor()" class="btn-azul">Menor</button>
+		  <button onclick="igual()" class="btn-verde">¡Eso es!</button>
+		</div>
+	  </div>
+  
+	  <script src="script.js"></script>
+</body>
+</html>
